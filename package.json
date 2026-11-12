@@ -1,0 +1,24 @@
+{
+  "name": "haika",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "turbo run build",
+    "typecheck": "turbo run typecheck",
+    "fmt": "oxfmt",
+    "lint": "oxlint",
+    "lint:fix": "oxlint --fix && oxfmt",
+    "test": "turbo run test",
+    "release": "bumpp -r"
+  },
+  "devDependencies": {
+    "bumpp": "catalog:",
+    "oxfmt": "^0.76.0",
+    "oxlint": "^1.91.0",
+    "turbo": "catalog:"
+  },
+  "engines": {
+    "node": "^22 || >=24"
+  },
+  "packageManager": "pnpm@12.18.0"
+}
