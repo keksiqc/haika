@@ -13,8 +13,8 @@
   },
   "devDependencies": {
     "bumpp": "catalog:",
-    "oxfmt": "^0.76.0",
-    "oxlint": "^1.91.0",
+    "oxfmt": "catalog:",
+    "oxlint": "catalog:",
     "turbo": "catalog:"
   },
   "engines": {

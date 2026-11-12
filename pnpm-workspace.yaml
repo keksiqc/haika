@@ -1,14 +1,14 @@
 packages:
   - packages/*
-
 catalogMode: prefer
 trustPolicy: no-downgrade
-
 catalog:
   "@types/node": ^26.6.6
   bumpp: ^12.3.0
+  oxfmt: ^0.78.0
+  oxlint: ^1.93.0
   publint: ^0.3.25
   tsdown: ^0.23.7
   turbo: ^2.11.10
-  typescript: ^6.0.3
+  typescript: ^7.0.2
   vitest: ^5.1.0
